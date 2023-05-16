@@ -1,0 +1,92 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Media icons */
+  .media-icons {
+    display: flex;
+  }
+  
+  .media-icons a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Hero section */
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  #hero-greetings {
+    color: #333;
+  }
+  
+  #hero-greetings .teks-satu {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #hero-greetings .teks-dua {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #hero-greetings .teks-tiga {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  #hero-greetings .teks-empat {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  #hero-image img {
+    border-radius: 5px;
+  }
